@@ -1,0 +1,39 @@
+{
+  "name": "generator-tsrc",
+  "version": "0.1.0",
+  "description": "Generates a Typescript React component",
+  "homepage": "https://github.com/eddietindame/generator-tsrc",
+  "author": {
+    "name": "eddietindame",
+    "email": "eddie.tindame@googlemail.com",
+    "url": "https://eddietindame.github.io"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "typescript",
+    "react",
+    "yeoman-generator"
+  ],
+  "devDependencies": {
+    "yeoman-test": "^1.7.0",
+    "yeoman-assert": "^3.1.0",
+    "jest": "^24.8.0"
+  },
+  "engines": {
+    "npm": ">= 4.0.0"
+  },
+  "dependencies": {
+    "yeoman-generator": "^2.0.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": "eddietindame/generator-tsrc",
+  "license": "Apache-2.0"
+}
